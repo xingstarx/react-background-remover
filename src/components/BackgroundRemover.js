@@ -1,5 +1,5 @@
 import { useState } from "react";
-import removeBackground from "@imgly/background-removal";
+import { removeBackground } from "@imgly/background-removal";
 
 import ImageInput from "./ImageInput/ImageInput";
 import ImagePreview from "./ImagePreview/ImagePreview";
