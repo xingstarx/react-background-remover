@@ -20,7 +20,7 @@ function BackgroundRemover() {
 
     const imageBlob = await removeBackground(imageFile, {
       publicPath: MODEL_ASSETS_URL,
-      // debug: true,
+      debug: true,
       progress: (key, current, total) => {
         console.log(`Processing: ${key}: ${current}/${total}`);
         const [type, subtype] = key.split(":");
